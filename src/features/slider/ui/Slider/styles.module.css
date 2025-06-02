@@ -1,0 +1,31 @@
+.container {
+  height: 425px;
+  display: flex;
+  margin-top: 53px;
+  justify-content: space-between;
+}
+
+.card_left {
+  Width: 188px;
+  border-radius: 0 32px 32px 0;
+  background: linear-gradient(180deg, #10C48E 0%, #0E8494 100%);
+}
+
+.arrow {
+  height: 32px;
+  width: 16px;
+  margin-top: 258px;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow_right {
+  transform: rotate(180deg);
+}
+
+
+.card_right {
+  Width: 188px;
+  border-radius:  32px 0 0 32px;
+  background: linear-gradient(180deg, #10C48E 0%, #0E8494 100%);
+}

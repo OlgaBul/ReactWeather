@@ -1,0 +1,45 @@
+.toggle {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 47px;
+  align-items: center;
+  gap: 12px;
+}
+
+.toggle p {
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.toggle_block {
+  width: 92px;
+  height: 30px;
+  border-radius: 22px;
+  background: linear-gradient(90deg, #33E017 0%, rgba(149, 241, 134, 0) 100%);
+
+}
+
+.toggle_block_right {
+  background: linear-gradient(90deg, rgba(149, 241, 134, 0) 0%,  #33E017 100%);
+}
+
+.toggle_circle {
+  width: 25px;
+  height: 25px;
+  background: rgba(24, 21, 21, 1);
+  border-radius: 50%;
+  margin: 2.5px 0;
+  cursor: pointer;
+}
+
+.toggle_circle_right {
+  margin-left: 67px;
+}
+
+
+@media (max-width:840px) {
+  .toggle {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,121 @@
+.card {
+  width: 817px;
+  border-radius: 32px;
+  background: linear-gradient(112.67deg, #AD36CB 32.23%, #333333 67.37%);
+}
+
+.city {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 35px;
+  margin-left: 28px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.city_name {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 100%;
+  background: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0);
+}
+.city_btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-left: auto;
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+.city_img_geo{
+  background-color: rgba(0, 0, 0, 0);
+  height: 2em;
+}
+
+.city_img_favourite {
+  background-color: rgba(0, 0, 0, 0);
+  height: 3em;
+}
+
+.city_img_favourite:hover {
+  transform: scale(1.2);
+}
+
+/* Card main info */
+.weather {
+  display: flex;
+  height: 100px;
+  margin-top: 67px;
+  background-color: rgba(0, 0, 0, 0);
+  gap: 152px;
+}
+
+.weather p {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  margin-left: 28px;
+  align-self: flex-end;
+}
+
+.weather_temp {
+  background-color: rgba(0, 0, 0, 0);
+  align-self:center;
+  display: flex;
+}
+
+.weather_temp img {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.weather_temp p {
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(242, 241, 241, 1);
+  text-decoration: none;
+
+}
+
+/* Card additional info */
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 97px;
+}
+
+.info_item {
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.info_item p {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+.info_item::first-line {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.info_item p:last-child{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 5px;
+}

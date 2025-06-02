@@ -1,0 +1,15 @@
+.error {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+}
+
+.link {
+  font-size: 20px;
+}
+
+.link:hover {
+  transform: scale(1.1)
+}

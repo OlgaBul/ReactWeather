@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(37, 35, 35, 1);
+  user-select: none;
+}
+
+.container {
+  padding: 24px;
+  min-height: 100%;
+}
